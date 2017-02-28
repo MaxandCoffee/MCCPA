@@ -1,0 +1,288 @@
+<!doctype html>
+
+<html lang="en">
+<title>Middlesex Community College Professional Association</title>
+<head>
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" type="text/css" href="MCCUnion.css" />
+    <link href='https://fonts.googleapis.com/css?family=Stardos+Stencil' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css' />
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://widgets.paper.li/javascripts/sr.embeddable.js" type="text/javascript"></script>
+</head>
+
+<script>
+//shrinking header function
+$(window).scroll(function() {
+if ($(this).scrollTop() > 0){  
+    $("header").addClass("sticky");
+	 $(".h1").addClass("sticky");
+	 $(".menuWrapper").addClass("sticky");
+      //$("#boxOne").hide(1000);
+      //$("#boxTwo").hide(1000);
+      //$("#boxThree").hide(1000);
+      //$("#boxFour").hide(1000);
+      $("#button").show(1000)
+  }
+  else{
+    $("header").removeClass("sticky");
+	 $(".h1").removeClass("sticky");
+	 $(".menuWrapper").removeClass("sticky");
+     $("#boxNav").fadeOut(500);
+//	 $("#boxOne").slideDown(1000);
+//     $("#boxTwo").slideDown(1000);
+//     $("#boxThree").slideDown(1000);
+//     $("#boxFour").slideDown(1000);
+     $("#button").fadeOut(1500)
+  }
+});
+
+//dropdown menu fuction
+$(document).ready(function() {
+    $("#drop").click(function(){
+        $("#dropNav").toggle(500);
+    });
+});
+
+
+//scroll to top function aka "home"
+$(document).ready(function(){
+$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});	
+});
+	
+//show menu function
+$(document).ready(function(){
+    $("#button").click(function(){
+        $("#boxNav").slideToggle(1000);
+    });
+});
+
+//Read more function
+ $(document).ready(function(){
+    $(".more").click(function(){
+        $(".complete").slideDown(1000);
+		$(".more").hide();
+    });
+});
+ 
+//Read less function
+ $(document).ready(function(){
+    $(".less").click(function(){
+        $(".complete").slideUp(1000);
+		$(".more").show();
+    });
+});
+ 
+</script>
+    <body>
+		<div class="content">
+			<div id="vh">
+				<header>
+					<div class="menuWrapper">
+						<ul>
+							<div id="drop"><a href="#">MCCC</a></div>
+								<ul id="dropNav">
+									<li><a href="http://mccc-union.org/index.html" target="_blank">Hompage</a></li>
+									<li><a href="http://mccc-union.org/daylinks.htm" target="_blank">Day Contract</a></li>
+									<li><a href="http://mccc-union.org/dcelinks.htm" target="_blank">DCE Contract</a></li>
+									<li><a href="http://mccc-union.info/up/" target="_blank">Unit Professionals</a></li>
+								</ul>
+							<div><a href="http://www.nea.org/" target="_blank">NEA</a></div>
+							<div><a href="http://www.massteacher.org/" target="_blank">MTA</a></div>
+						</ul>
+					</div>
+					<button id="button">Menu</button>
+					<div class="h1"><a href="#" class="scrollToTop">MCC <br />Professional <br /> Association</a></div>
+		
+				<div id="boxNav">
+						<a href="#" class="scrollToTop home"></a>
+						<a href="#whoWeAre"><div class="boxOne"></div></a>
+						<a href="#whatWeDo"><div class="boxTwo"></div></a>
+						<a href="#ourLeadership"><div class="boxThree"></div></a>
+						<a href="#latestHeadlines"><div class="boxFour"></div></a>
+				</div>
+				</header>
+			
+				<div id="boxWrapper">
+					<a href="#whoWeAre"><div id="boxOne">Who We Are</div></a>
+					<a href="#whatWeDo"><div id="boxTwo">What We Do</div></a>
+					<a href="#ourLeadership"><div id="boxThree">Our Leadership</div></a>
+					<a href="#latestHeadlines"><div id="boxFour">Latest Headlines</div></a>
+				</div>
+				
+				<div id="welcomeText">
+					<p>Welcome to the Middlesex Community College Professional Assoication.</p>
+					<p>If you are new to the college, we would like to extend a special invitation to look around and get involved in your union.</p>
+					<br />
+					<p>In solidarity,</p>
+					<br/>
+					<p class="signature">Your MCCPA Leadership</p>
+				</div>
+			</div>
+        </div>
+		
+		
+		<div class="content">
+			<div class="news">
+				<h3 class="title">MCCPA News</h3>
+				<iframe width="300" style="border: 1px solid #656565;" src="http://feed.mikle.com/widget/?rssmikle_url=http%3A%2F%2Fmccpa-union.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&rssmikle_frame_width=1000&rssmikle_frame_height=200&frame_height_by_article=0&rssmikle_target=_blank&rssmikle_font=Arial%2C%20Helvetica%2C%20sans-serif&rssmikle_font_size=12&rssmikle_border=off&responsive=off&text_align=left&text_align2=left&corner=off&scrollbar=on&autoscroll=on&scrolldirection=up&scrollstep=3&mcspeed=20&sort=Off&rssmikle_title=off&rssmikle_title_bgcolor=%230066FF&rssmikle_title_color=%23FFFFFF&rssmikle_item_bgcolor=%23F1F1F1&rssmikle_item_title_length=55&rssmikle_item_title_color=%23656565&rssmikle_item_border_bottom=on&rssmikle_item_description=on&item_link=off&rssmikle_item_description_length=150&rssmikle_item_description_color=%23666666&rssmikle_item_date=gl1&rssmikle_timezone=Etc%2FGMT&datetime_format=%25b%20%25e%2C%20%25Y%20%25l%3A%25M%20%25p&item_description_style=text%2Btn&item_thumbnail=full&item_thumbnail_selection=auto&article_num=15&rssmikle_item_podcast=off&" scrolling="no" name="rssmikle_frame" marginwidth="0" marginheight="0" vspace="0" hspace="0" frameborder="0"></iframe>
+			</div>
+			
+			<div class="news">
+				<h3 class="title">MTA & NEA News</h3>
+				<iframe width="300" style="border: 1px solid #656565;" src="http://feed.mikle.com/widget/?rssmikle_url=http%3A%2F%2Fwww.nea.org%2Fhome%2Fnea-education-issues.rss%7Chttp%3A%2F%2Ffeeds.feedburner.com%2FMassachusettsTeachersAssociationNewsHeadlinesRssFeed&rssmikle_frame_width=1000&rssmikle_frame_height=200&frame_height_by_article=3&rssmikle_target=_blank&rssmikle_font=Arial%2C%20Helvetica%2C%20sans-serif&rssmikle_font_size=12&rssmikle_border=off&responsive=off&text_align=left&text_align2=left&corner=off&scrollbar=on&autoscroll=on&scrolldirection=up&scrollstep=5&mcspeed=20&sort=New&rssmikle_title=off&rssmikle_title_bgcolor=%230066FF&rssmikle_title_color=%23FFFFFF&rssmikle_item_bgcolor=%23F1F1F1&rssmikle_item_title_length=55&rssmikle_item_title_color=%23656565&rssmikle_item_border_bottom=on&rssmikle_item_description=on&item_link=off&rssmikle_item_description_length=150&rssmikle_item_description_color=%23666666&rssmikle_item_date=gl1&rssmikle_timezone=Etc%2FGMT&datetime_format=%25b%20%25e%2C%20%25Y%20%25l%3A%25M%20%25p&item_description_style=text%2Btn&item_thumbnail=full&item_thumbnail_selection=auto&article_num=15&rssmikle_item_podcast=off&iframe_id=feedwind_6191444710151399&" scrolling="no" name="rssmikle_frame" marginwidth="0" marginheight="0" vspace="0" hspace="0" frameborder="0"></iframe>
+			</div>
+		</div>
+		
+		<div class=clear></div>
+		
+		<div class="content">
+			<div id="whoWeAre">
+				<h2 class="title">Who We Are</h2>
+				<img src="chart.png"/>
+				<p>The Middlesex Community College Professional Association (MCCPA) is a union which represents all full-time and part-time faculty and day professional staff at the college.</p>
+				<p>The MCCC consists of two units as certified by the state labor relations commission - a day unit and a DCE unit.</p>
+				<div class="more">read more...</div>
+				<div class="complete"><p>The officers of the MCCC are its president, vice president, secretary and treasurer, all elected biannually. The MCCC is governed by a set of bylaws and standing rules which are determined at its annual meeting, called the Delegate Assembly. This meeting of representatives of all of the 15 chapters is traditionally held in April. Throughout the year the MCCC is managed by the Board of Directors, which meets monthly. Its voting members consists of the officers and one representative from each chapter. The MCCPA representative is the director. Non voting members are currently one NEA Director, two MTA Directors, the day unit grievance coordinator, the DCE unit grievance coordinator, and the communications coordinator. <br />The purpose and objectives of the MCCPA are stated in Article II - Objectives of its Bylaws. The chapter is governed by its bylaws and rules, and managed by the executive committee, which consists of the officers and representatives, as described in the bylaws. The chapter has approximately one meeting per month during the Fall and Spring semesters. Members are encouraged to communicate with any member of the executive committee at any time. It also maintains an answering machine at 617-280-3555 for day contract business, and at 508-656-3326 for DCE contract business.</p>
+				
+				   <p>The MCCPA is a chapter of the Massachusetts Community College Council (MCCC) which represents the faculty and professional staff at all of the 15 Massachusetts public community colleges. The MCCC is an affiliate of the Massachusetts Teachers Association (MTA) which in turn is an affiliate of the National Education Association (NEA). <span class="less">...read less</span></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div id="whatWeDo">
+				<h2 class=title>We're Here to Serve You</h2>
+				<p class="purpose" style="font-size: 24px";>Purpose: We, the faculty and professional staff at the fifteen community colleges of the Commonwealth of Massachusetts, have organized into a politically active Union to protect the professional rights and advance the economic well-being and working conditions of our members, as well as maintain and improve the quality of education in our community colleges.</p>
+				<img src="gym.png"/>
+				<br />
+				  <ul>Objectives
+					<li>Engage in collective bargaining</li>
+					<li>Promote livable, equitable, and competitive wages</li>
+					<li>Improve salary and benefits</li>
+					<li>Promote professional working conditions, including professional development opportunities, adequate resources, and safe working environments</li>
+					<li>Ensure reasonable workloads and work schedules</li>
+					<li>Protect professional rights</li>
+					<li>Protect and maintain academic freedom</li>
+					<li>Promote full-time employment</li>
+					<li>Promote equitable employment conditions for part-time unit professionals and adjunct faculty</li>
+					<li>Promote quality public higher education and integrity of curriculum</li>
+					<li>Promote job security</li>
+					<li>Promote political action through education and organizing</li>
+				  </ul>
+			</div>
+		</div>
+		
+		<div class="filler"></div>
+		
+		<div class="content">
+			<table id="ourLeadership">
+				<tr>
+					<th colspan="2">
+						<h2 class="title" style="text-align: left";>Our Leadership</h2>
+					</th>
+				</tr>
+				<tr>
+					<td>
+						<p>MCCC DIRECTOR</p>
+						<p>Joe Nardoni</p>
+						<p>978 656 3118</p>
+						<p>Term 6/30/16</p>
+					</td>
+					<td>
+						<p>PRESIDENT</p>
+						<p>Reginald Nichols</p>
+						<p>978 656 3227</p>
+						<p>Term 6/30/16</p>
+					</td>
+					<td>
+						<p>VICE PRESIDENT</p>
+						<p>Lowell Campus</p>
+						<p>Max Hallsett</p>
+						<p>Term 6/30/16</p>
+					</td>
+					<td>
+						<p>VICE PRESIDENT</p>
+						<p>Bedford Campus</p>
+						<p>Vacant</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>TREASURER</p>
+						<p>Peyton Paxson</p>
+						<p>781 280 3943</p>
+						<p>Term 6/30/16</p>
+					</td>
+					<td>
+						<p>SECRETARY</p>
+						<p>Michael Rideout</p>
+						<p>Term 6/30/16</p>
+					</td>
+					<td>
+						<p>DAY GRIEVANCE</p>
+						<p>COORDINATOR</p>
+						<p>President</p>
+					</td>
+					<td>
+						<p>DCE GRIEVANCE</p>
+						<p>COORDINATOR</p>
+						<p>Hector Agostini</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>DCE REPRESENTATIVE</p>
+						<p>Hector Agostini</p>
+						<p>978 656-3114</p>
+						<p>Term 6/30/16</p>
+					</td>
+					<td>
+						<p>PROFESSIONAL STAFF</p>
+						<p>REPRESENTATIVE</p>
+						<p>Laura Horgan</p>
+						<p>781 280 3702</p>
+						<p>Term 6/30/16</p>
+					</td>
+					<td>
+						<p>MACER CHAIR</p>
+						<p>President</p>
+					</td>
+					<td>
+						<p>CAMPUS AREA REPRESENTATIVE</p>
+						<p>Kathryn Pupillo-Business Division (Bedford Campus)</p>
+						<p>781 280 3851</p>
+						<p>Term 6/30/16</p>
+					</td>
+				</tr>	
+			</table>
+		</div>
+		
+		<div class="content">
+			<div id="latestHeadlines">
+				<h2 class="title">Latest Headlines</h2>
+				<iframe style="width:100%; padding: 0; height:100vh" src="https://paper.li/e-1444321298#/"></iframe>
+			</div>
+		</div>
+		
+		<footer>
+			<div id="contact">
+				<p>Middlesex Community College</p>
+				<p>Springs Road</p>
+				<p>Bedford, MA 01730</p>
+				<p>781 280 3200</p>
+				<p>781 275 4910 College FAX</p>
+			</div>
+			
+			<div id="design">webmaster/developer: Max Hallsett copywrite 2015</div>
+		</footer>
+    </body>
+</html>
