@@ -173,7 +173,7 @@ header .menuWrapper.sticky{
     height: 120px;
     width: 120px;
     background-position: bottom;
-    background-image: url(who.png);
+    background-image: url(who.PNG);
     background-size: contain;
     margin: 100px 20px 10px 10px;
     text-align: center;
@@ -188,7 +188,7 @@ header .menuWrapper.sticky{
     height: 120px;
     width: 120px;
     background-position: bottom;
-    background-image: url(do.png);
+    background-image: url(do.PNG);
     background-size: contain;
     margin: 100px 20px 10px 10px;
     text-align: center;
@@ -203,7 +203,7 @@ header .menuWrapper.sticky{
     height: 120px;
     width: 120px;
     background-position: bottom;
-    background-image:url(lead.png);
+    background-image:url(lead.PNG);
     background-size: contain;
     margin: 100px 20px 10px 10px;
     text-align: center;
@@ -219,7 +219,7 @@ header .menuWrapper.sticky{
     width: 120px;
     size: auto;
     background-position: bottom;
-    background-image: url(new.png);
+    background-image: url(new.PNG);
     background-size: contain;
     margin: 100px 20px 10px 10px;
     text-align: center;
@@ -244,7 +244,7 @@ header .menuWrapper.sticky{
     display: block;
     height: 75px;
     width: 75px;
-    background-image: url(home.png);
+    background-image: url(home.PNG);
     background-size: cover;
     cursor: pointer;
  
@@ -254,7 +254,7 @@ header .menuWrapper.sticky{
     display: block;
     height: 75px;
     width: 75px;
-    background-image: url(who.png);
+    background-image: url(who.PNG);
     background-size: cover;
     cursor: pointer;
 }
@@ -263,7 +263,7 @@ header .menuWrapper.sticky{
     display: block;
     height: 75px;
     width: 75px;
-    background-image: url(do.png);
+    background-image: url(do.PNG);
     background-size: cover;
     cursor: pointer;
 }
@@ -272,7 +272,7 @@ header .menuWrapper.sticky{
     display: block;
     height: 75px;
     width: 75px;
-    background-image:url(lead.png);
+    background-image:url(lead.PNG);
     background-size: cover;
     cursor: pointer;
 }
@@ -281,7 +281,7 @@ header .menuWrapper.sticky{
     display: block;
     height: 75px;
    /* width: 75px;*/
-    background-image: url(new.png);
+    background-image: url(new.PNG);
     background-size: cover;
     cursor: pointer;
 }
